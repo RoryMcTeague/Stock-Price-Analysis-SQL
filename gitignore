@@ -1,5 +1,37 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-*.db
-.env
+
+# Log files
+*.log
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Database files
+*.db
+
+# Sensitive files
+.env
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
